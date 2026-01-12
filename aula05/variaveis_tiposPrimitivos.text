@@ -1,0 +1,5 @@
+Variaveis são formas de armazenar dados;
+Dados possuem tipos; 
+String, Number e Boolean são os tipo de dados mais comuns em JavaScript;
+O comando 'typeof' em JavaScript e usado para descobrir o tipo de um valor ou uma variavel;
+Tipos primitivos são os tipos de dados simples e imutaveis.
