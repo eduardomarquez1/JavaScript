@@ -1,0 +1,35 @@
+TRATAMENTO DE DADOS (
+
+    Number.parseInt(): converte dados para o tipo inteiro;
+    Number.parseFloat(): converte dados para o tipo ponto flutuante;
+    .toString(): converte dados para o tipo string;
+
+    Number(): Converte o tipo para Int ou Float
+    String(): Converte o tipo para String
+
+
+        FORMATANDO STRING (
+
+        var s = 'JavaScript'
+
+        'Eu estou aprendendo s' / Não faz interpolação
+        'Eu estou aprendendo' + s / Faz concatenação
+        `Eu estou aprendendo ${s}` / Usa template string 
+        )
+
+        FORMATANDO NÚMEROS (
+
+        var n1 = 1545.5
+
+        n1.toFixed(2) / fixa duas casas após o ponto flutuante 
+        '1545.50'
+
+        n1.toFixed(2).replace('.', ',') / substitui o ponto para uma virgula
+        '1545,50'
+
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) / adiciona o simbolo da moeda brasileira antes do valor
+        'R$ 1,545.50'
+        )
+)
+
+

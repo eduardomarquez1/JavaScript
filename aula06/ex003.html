@@ -16,9 +16,12 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição!!</p> 
     <script> // inicia o JavaScript no HTML de forma interna
-        window.alert("Minha primeira mensagem!"); // emite uma caixa de alerta no navegador 
-        window.confirm("Gostaria de continuar?"); // emite uma caixa de confirmação no navegador 
-        window.prompt("Qual é o seu nome?"); // Pedir nome do usuário no navegador 
+        var n1 = Number(window.prompt("Digite um número"))
+        var n2 = Number(window.prompt("Digite outro número"))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+        // (number + number) para adição 
+        // (string + string) para concatenação
     </script>
 </body>
 </html>
