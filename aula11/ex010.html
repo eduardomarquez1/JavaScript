@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            font: normal 13pt Arial;
+        }
+        div#resultado {
+            margin-top: 15pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    
+    Velocidade do carro <input type="number" name="txtvelocidade" id="txtvelocidade"> Km/h
+    <input type="button" value="Verificar" onclick="sistema_de_multas()">
+    <div id="resultado">Aguardando Velocidade...</div>
+    <script>
+        function sistema_de_multas() {
+            var velocidade = window.document.getElementById('txtvelocidade');
+            var resultado = window.document.getElementById('resultado');
+            var vel = Number(velocidade.value);
+            resultado.innerHTML = `<p> Velocidade atual do carro é ${vel} Km/h </p>`;
+            if (vel > 70) {
+                resultado.innerHTML += 
+                    `<li> 
+                    <ol> Você foi multado por excesso de velocidade!</ol>
+                    <ol> Por favor, dirija dentro do limite de velocidade </ol> 
+                    </li>`;
+            }
+            resultado.innerHTML += `<p> Dirija sempre com cinto de segurança! </p>`;
+        }
+    </script>
+</body>
+</html>
