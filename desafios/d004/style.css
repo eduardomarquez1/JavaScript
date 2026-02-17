@@ -1,0 +1,8 @@
+body{
+    font: normal 18pt Arial;
+}
+input#btntroco{
+    font: normal 16pt Arial;
+    width: 260px;
+    height: 80px;
+}
