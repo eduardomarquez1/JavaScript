@@ -1,0 +1,13 @@
+body{
+    font: normal 18pt Arial;
+}
+
+button#converter{
+    width: 150px;
+    height: 90px;
+    font: normal 15pt Arial;
+}
+
+div#res{
+    margin-top: 20px;
+}
