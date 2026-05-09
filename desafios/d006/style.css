@@ -1,0 +1,16 @@
+body{
+    font: normal 18pt Arial;
+}
+
+input#btnConverter{
+    font: normal 20pt Arial;
+    width: 200px;
+    height: 100px;
+}
+
+div#containerDeInteracao{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
