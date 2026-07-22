@@ -1,0 +1,8 @@
+body{
+    font: normal 18pt Arial;
+}
+div button {
+    height: 100px;
+    width: 200px;
+    font-size: 20pt;
+}
